@@ -5,11 +5,11 @@
 ## Part 1a
 
 ### var declaration
- 1. Line 9 printed: "values added:  20"
- 2. Line 13 printed: "final result:  20"
+ 1. Line 9 printed: "values added:  20". It is because the variable result is stored the sum of num1 and num2. 10+10=20. Thus it prints 20. The return statement is in the same block scope, and the result variable is declared using var declaration. Therefore, line 9 can successfully access its value.
+ 2. Line 13 printed: "final result:  20". It is because the result variable is declared using var declaration. The scope of the result variable is within this function scope, instead of being limited to the if statement. Therefore line 13 can successfully access the value of variable result and prints 20.
 
  ### let declaration
- 3. Line 9 printed: "values added:  20"
+ 3. Line 9 printed: "values added:  20". It is because the variable result is stored the sum of num1 and num2. 10+10=20. Thus it prints 20. The return statement is in the same block scope, and the result variable is declared using let declaration. Therefore, line 9 can successfully access its value.
  4. Line 13 returns  an error. It is because the variable result is declared using let declaration. This means the visibility scope of the variable result is limited to the if statement block. It can not be accessed outside the block (line 13 is outside of the block). Therefore there will be a ReferenceError.
 
  ### const declaration
