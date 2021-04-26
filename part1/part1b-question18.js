@@ -4,4 +4,3 @@ function printTime(){
     console.log(time);
 }
 var intervalID = setInterval(printTime, 1000);
-

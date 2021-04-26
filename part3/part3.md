@@ -11,13 +11,13 @@ When we calculate result = num1 + num2, we can first convert the datatype of num
 The name of the new json file is citylots.json
 
 ### 4. Which file initiated the download of the new file?
-It is the part2.js file initialized the downloading. More specifically, it is the function fetchData inside the part2.js initialized the dowloading of citylots.json
+It is the part2.js file initialized the downloading. 
 
 ### 5. What is its file size?
-The size of citylots.json is 11.7MB
+The size of citylots.json is 11.7MB (11687628 bytes)
 
 ### 6. How long did it take to download?
-The time it took to finish downloading  is 3.04s
+The time it took to finish downloading  is 5481.7ms
 
 ### 7.What was your User-Agent for the browser that made the request?
 User agent is: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
